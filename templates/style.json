@@ -1,0 +1,26 @@
+{
+  "version": 8,
+  "sprite": "../sprites/spritesheet",
+  "glyphs": "../fonts/{fontstack}/{range}.pbf",
+  "sprite_ref": "generiek_symbool",
+  "sources": {
+    "omgevingsdocument": {
+      "type": "vector",
+      "url": "https://owvectortilesgateway.azurewebsites.net/arcgis/rest/services/ozon/VectorTileServer"
+    }
+  },
+  
+  "layers": [
+    {
+      "id": "vag215line",
+      "type": "line",
+      "source": "omgevingsdocument",
+      "source-layer": "vlaklocaties",
+      "paint": {        
+        "line-color": "#009b00",
+        "line-opacity": 0.7,
+        "line-width": 1.0
+      }
+    }
+  ]
+}
