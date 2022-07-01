@@ -6,7 +6,7 @@
   "sources": {
     "omgevingsdocument": {
       "type": "vector",
-      "url": "https://owvectortilesgateway.azurewebsites.net/arcgis/rest/services/ozon/VectorTileServer"
+      "url": "../../../VectorTileServer"
     }
   },
   

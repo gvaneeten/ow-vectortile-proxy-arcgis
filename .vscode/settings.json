@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/b150d40c-a769-4d78-b939-12da9765209e/microsoft.web/sites/subscriptions/b150d40c-a769-4d78-b939-12da9765209e/resourceGroups/OWVectortilesGateway/providers/Microsoft.Web/sites/OWVectortilesGateway",
+    "appService.deploySubpath": "."
+}
